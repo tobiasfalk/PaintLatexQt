@@ -1,0 +1,12 @@
+#ifndef PAINTLATEXQT_GLOBAL_H
+#define PAINTLATEXQT_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(PAINTLATEXQT_LIBRARY)
+#  define PAINTLATEXQT_EXPORT Q_DECL_EXPORT
+#else
+#  define PAINTLATEXQT_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // PAINTLATEXQT_GLOBAL_H
